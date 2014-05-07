@@ -4,7 +4,7 @@
 #
 # 
 #  
-app_name = "magtest" 
+app_name = "magento_test_may_7" 
 key = "put your encryption key here"
 
 if ['solo', 'app', 'app_master'].include?(node[:instance_role])
