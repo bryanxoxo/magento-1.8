@@ -5,7 +5,7 @@
 # 
 #  
 app_name = "magento_test_may_7" 
-key = "put your encryption key here"
+key = "569dd5a337f87dab39cbc9fb690cf7ba"
 
 if ['solo', 'app', 'app_master'].include?(node[:instance_role])
     template "/data/#{app_name}/shared/config/local.xml" do
